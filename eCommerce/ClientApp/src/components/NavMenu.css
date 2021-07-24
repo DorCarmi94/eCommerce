@@ -1,0 +1,65 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.containerNavBar {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.nb-member {
+  background: #d1e6f7;
+}
+
+.nb-admin {
+  background: #00b8e9;
+}
+
+.nb-white {
+  background: white;
+}
+
+.navBarDiv {
+  display: flex;
+}
+
+.navBarSearch {
+  display: flow-root;
+  margin: 0 auto;
+}
+
+.image {
+  width: 25px;
+  height: 25px;
+}
+
+img:hover{
+  opacity: 50%;
+}
+
+.dropdownMenu button {
+  background: white;
+  color: black;
+  border: black;
+}
+
+.labelMargin{
+  text-align: center;
+  margin-top: 10px;
+}

@@ -1,0 +1,34 @@
+﻿{
+  "InitWithData": true,
+  "InitDataFile": "Init.json",
+  
+  "Memory": "InMemory",
+
+  "AdminCreationInfo" : {
+    "Username": "User1",
+    "Email": "User1@eCommerce.com",
+    "Password": "User1"
+  },
+
+  "DBConnectionString": "Server=localhost;DataBase=market;Trusted_Connection=True;",
+  "AuthDBConnectionString": "Server=localhost;DataBase=auth;Trusted_Connection=True;",
+  "StatsDBConnectionString": "Server=localhost;DataBase=stats;Trusted_Connection=True;",
+
+
+  "DBConnectionString_backUp": "Server=tcp:ecommerce-degsn.database.windows.net,1433;DataBase=market;Initial Catalog=ECommerce;Persist Security Info=False;User ID=kapten.jack.c@gmail.com@ecommerce-degsn;Password=iloveJ20;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Integrated Security=False;Connection Timeout=30;Trusted_Connection=False;",
+  "AuthDBConnectionString_backUp": "Server=tcp:ecommerce-degsn.database.windows.net,1433;DataBase=auth;Initial Catalog=ECommerce;Persist Security Info=False;User ID=kapten.jack.c@gmail.com@ecommerce-degsn;Password=iloveJ20;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Integrated Security=False;Connection Timeout=30;DataBase=auth;Trusted_Connection=False;",
+  "StatsDBConnectionString_backUp": "Server=tcp:ecommerce-degsn.database.windows.net,1433;DataBase=stats;Initial Catalog=ECommerce;Persist Security Info=False;User ID=kapten.jack.c@gmail.com@ecommerce-degsn;Password=iloveJ20;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Integrated Security=False;Connection Timeout=30;DataBase=stats;Trusted_Connection=False;",
+  
+  
+  "PaymentAdapter": {
+    "Name": "WSEP",
+    "Url": "https://cs-bgu-wsep.herokuapp.com/"
+  },
+  
+  "SupplyAdapter": {
+    "Name": "WSEP",
+    "Url": "https://cs-bgu-wsep.herokuapp.com/"
+  },
+
+  "JWTKey": "keykeykeykeykeyekeykey"
+}

@@ -1,0 +1,15 @@
+﻿.horizontalBorders {
+    border-top: #b0b1b7 solid 1px;
+    border-bottom: #b0b1b7 solid 1px;
+}
+
+.basketItemsContainer {
+    display: grid;
+    padding: 10px 0;
+}
+
+.basketItemsContainer *{
+    font-size: medium;
+    margin-left: 5px;
+    margin-right: 5px;
+}

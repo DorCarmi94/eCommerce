@@ -1,0 +1,43 @@
+﻿.RegisterMain {
+    display: flex;
+    margin: 200px 0;
+    height: auto;
+}
+
+.RegisterWindow {
+    display: flex;
+    border: solid 1px #dadce0;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 1px #b0b1b7;
+    margin: 0 auto;
+    padding: 25px 50px;
+    flex-flow: column;
+}
+
+.RegisterForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.RegisterForm input {
+    margin: 10px;
+}
+
+.RegisterForm h5 {
+    margin: 10px;
+}
+
+.RegisterForm label {
+    color: red;
+}
+
+.CenterItemContainer {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h3 {
+   color: #4788ef; 
+}

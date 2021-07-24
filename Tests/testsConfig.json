@@ -1,0 +1,21 @@
+﻿{
+  "InitWithData": true,
+  "InitDataFile": "Init.json",
+
+  "Memory": "InMemory",
+
+  "AdminCreationInfo" : {
+    "Username": "User1",
+    "Email": "User1@eCommerce.com",
+    "Password": "User1"
+  },
+
+  "DBConnectionString": "Server=localhost;DataBase=market;Trusted_Connection=True;",
+  "AuthDBConnectionString": "Server=localhost;DataBase=auth;Trusted_Connection=True;",
+  "StatsDBConnectionString": "Server=localhost;DataBase=stats;Trusted_Connection=True;",
+
+  "PaymentAdapter": "WSEP",
+  "SupplyAdapter": "WSEP",
+
+  "JWTKey": "ThisKeyIsForTests"
+}

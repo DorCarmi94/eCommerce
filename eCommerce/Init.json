@@ -1,0 +1,70 @@
+﻿[
+  {
+    "Action": "CreateUser",
+    "Data": {
+      "MemberInfo": {
+        "Username": "User2",
+        "Email": "User2@ecommerce.com",
+        "Name": "User2",
+        "Birthday": "01/01/1990",
+        "Address": "Hollywood Street 1"
+      },
+      "Password": "User2"
+    }
+  },
+
+  {
+    "Action": "CreateUser",
+    "Data": {
+      "MemberInfo": {
+        "Username": "User3",
+        "Email": "User3@ecommerce.com",
+        "Name": "User3",
+        "Birthday": "01/01/1990",
+        "Address": "Hollywood Street 1"
+      },
+      "Password": "User3"
+    }
+  },
+
+  {
+    "Action": "MemberAction",
+    "Data" : {
+      "Username": "User2",
+      "Password": "User2",
+      "Actions": [
+        {
+          "Action": "OpenStore",
+          "Data": {
+            "StoreName": "AppleStore"
+          }
+        },
+
+        {
+          "Action": "AddItem",
+          "Data": {
+            "ItemName": "iPhone",
+            "StoreName": "AppleStore",
+            "Amount": 3000000,
+            "Category": "Tech",
+            "KeyWords": ["Tech"],
+            "PricePerUnit": 2500
+          }
+        },
+
+        {
+          "Action": "AppointManager",
+          "Data": {
+            "Manager": "User3",
+            "Store": "AppleStore",
+            "Permissions": [
+              "AddItemToStore",
+              "EditItemDetails",
+              "ChangeItemPrice"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

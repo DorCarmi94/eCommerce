@@ -1,0 +1,43 @@
+﻿.itemDisplay {
+    display: grid;
+    border: #b0b1b7 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    width: -moz-fit-content;
+}
+
+.itemDisplay label{    
+    display: block;
+    text-align: center;
+}
+
+.label1{
+    color: #1b6ec2;
+    font-size: x-large;
+}
+
+.label2 {
+    color: #1b6ec2;
+    font-size: medium;
+}
+
+.label3 {
+    color: red;
+    font-size: medium;
+}
+
+.label4 {
+    color: green;
+    font-size: medium;
+}
+
+.cartSection {
+    border-top: #b0b1b7 solid 1px;
+}
+
+.itemsDisplay {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

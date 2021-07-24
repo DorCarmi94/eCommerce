@@ -1,0 +1,15 @@
+﻿[
+  {
+    "Action": "CreateUser",
+    "Data": {
+      "MemberInfo": {
+        "Username": "User2",
+        "Email": "User2@ecommerce.com",
+        "Name": "User2",
+        "Birthday": "01/01/1990",
+        "Address": "Hollywood Street 1"
+      },
+      "Password": "User2"
+    }
+  }
+ ]
